@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+form, .work-exp{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+form input{
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+.job_date{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.job_date input{
+    width: 42%;
+}
+form button{
+    padding: 8px;
+    background-color: rgb(0, 255, 13);
+    color: white;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
